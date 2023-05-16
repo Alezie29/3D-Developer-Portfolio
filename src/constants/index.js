@@ -4,20 +4,12 @@ import {
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
-    mongodb,
     git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
     shopify,
     carrent,
     jobit,
@@ -25,6 +17,10 @@ import {
     threejs,
   } from "../assets";
   
+import GFA from "../assets/company/GFA.png";
+import UTime from "../assets/company/U_Time.png";
+import WebDev from "../assets/company/webdev.png";
+
   export const navLinks = [
     {
       id: "about",
@@ -96,55 +92,57 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Documentat Management",
+      company_name: "GFA Consulting LTD",
+      icon: GFA,
+      iconBg: "#FFFFFF",
+      date: "July 2021 - Sep 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Remotely working in Thailand during COVID-19 pandemic.",
+        "Filing, Spreadsheet Organization, Documentation Management",
+        "Improving Microsoft Suite Skills",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "Graphic Design",
+      company_name: "U-Time Fitness",
+      icon: UTime,
+      iconBg: "#2C2C2C",
+      date: "Oct 2022 - Dec 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Created posters for my local gym to use for advertising and marketing purposes.",
+        "Collaborating with cross-functional teams including designers and managers to create high-quality products.",
+        "Used tools such as PhotoShop, Adobe Illustrator and Canva",
       ],
     },
     {
-      title: "Web Developer",
+      title: "Website Development",
       company_name: "Shopify",
       icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      iconBg: "#FFFFFF",
+      date: "Jan 2023 - Feb 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Created my own website for Shopify to sell my products.",
+        "Learnt and implemented the fundamentals of web design and including Colour Theory and Functionality.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      title: "Freelance Web Developer",
+      company_name: "Self-Employed",
+      icon: WebDev,
+      iconBg: "#3F5B70",
+      date: "Nov 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Creating visually appealing and user-friendly website layouts.",
+        "Implementing responsive design principles to ensure optimal viewing experience across devices.",
+        "Collaborating with clients to understand their brand identity and incorporating it into the website design.",
+        "Developing custom website features and functionalities using HTML, CSS, and JavaScript.",
+        "Conducting thorough testing and debugging to ensure the website functions smoothly.",
+       "Optimizing websites for search engines (SEO) to improve visibility and organic traffic.",
+       " Providing ongoing website maintenance and updates to keep the site current and secure.",
+        "Incorporating accessibility standards to ensure inclusive user experiences.",
+        "Keeping up-to-date with industry trends and best practices in web design.",
       ],
     },
   ];
@@ -152,7 +150,7 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+        "I thought it was impossible to make a website as beautiful as our product, but Alex proved me wrong.",
       name: "Sara Lee",
       designation: "CFO",
       company: "Acme Co",
@@ -160,7 +158,7 @@ import {
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
+        "I've never met a web developer who truly cares about their clients' success like Alex does.",
       name: "Chris Brown",
       designation: "COO",
       company: "DEF Corp",
@@ -168,7 +166,7 @@ import {
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "After Alex optimized our website, our traffic increased by 50%. We can't thank them enough!",
       name: "Lisa Wang",
       designation: "CTO",
       company: "456 Enterprises",
