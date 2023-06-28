@@ -11,8 +11,6 @@ import {
     nodejs,
     git,
     shopify,
-    carrent,
-    jobit,
     tripguide,
     threejs,
   } from "../assets";
@@ -20,6 +18,12 @@ import {
 import GFA from "../assets/company/GFA.png";
 import UTime from "../assets/company/U_Time.png";
 import WebDev from "../assets/company/webdev.png";
+import JSexercises from "../assets/company/jsexercises.png";
+import RPS from "../assets/company/rps.png";
+import AM from "../assets/company/website.png";
+import andrewImage from "../assets/images/Andrew.jpg";
+import faiiImage from "../assets/images/Faii.jpg";
+import fraImage from "../assets/images/Francesco.jpg";
 
   export const navLinks = [
     {
@@ -150,93 +154,93 @@ import WebDev from "../assets/company/webdev.png";
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Alex proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "I thought it was impossible to make such beautiful products, but Alex proved me wrong.",
+      name: "Faii Rittiron",
+      designation: "Marketing",
+      company: "U-Time Fitness Phuket",
+      image: faiiImage,
     },
     {
       testimonial:
         "I've never met a web developer who truly cares about their clients' success like Alex does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      name: "Francesco Palazzoli",
+      designation: "Staff",
+      company: "The Modern Estate",
+      image: fraImage,
     },
     {
       testimonial:
-        "After Alex optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "After Alex optimized our website, our traffic increased by 30%. It look's alot more modern and professional.",
+      name: "Andrew Mckenzie",
+      designation: "CEO",
+      company: "GFA Consulting Ltd.",
+      image: andrewImage,
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "JavaScript Exercises",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Solved several problems provided by 'The Odin Project' that helped me understand core principles of programming, all done in the JavaScript programming lanaguage",
       tags: [
         {
-          name: "react",
+          name: "JavaScript",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "HTML",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "CSS",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: JSexercises,
+      source_code_link: "https://github.com/Alezie29/JavaScript-Exercises-Solutions",
     },
     {
-      name: "Job IT",
+      name: "Rock, Paper, Scissors",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Created a fully functional game of Rock, Paper, Scissors that the user can play with the computer, scores are tracked and a winner is declared at the end of the game!",
       tags: [
         {
-          name: "react",
+          name: "JavaScript",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "HTML",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "CSS",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: RPS,
+      source_code_link: "https://github.com/Alezie29/rock-paper-scissors-",
     },
     {
-      name: "Trip Guide",
+      name: "This Website!",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Creating this website has helped me strenghten my fundamentals and taught me many things about JS including different libraries such as three.js that help make 3D models.",
       tags: [
         {
-          name: "nextjs",
+          name: "JavaScript, Three.js, React.js",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "HTML, CSS",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Node.js",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: AM,
+      source_code_link: "https://github.com/Alezie29/3D-Developer-Portfolio",
     },
   ];
   
